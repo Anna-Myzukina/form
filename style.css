@@ -1,0 +1,30 @@
+/*======== END reset styles =============*/
+
+/*======== general style ===============*/
+*{
+    box-sizing: border-box;
+}
+
+a, span{
+    display: inline-block;
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+body{
+    padding-bottom: 500px; /*DON`T FORGOT DELETE when finish project*/
+}
+
+/*======== main style ==============*/
+.block,
+.inline{
+    display: inline-block;/*but margine auto stop work*/
+    width: 400px;
+    height: 400px;
+    background: #000;
+    margin: 100px auto;
+}
