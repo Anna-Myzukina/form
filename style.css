@@ -257,16 +257,102 @@ i{
 
 /*=== FORM START ====*/
 .form_section{
-	width: 380px;
-	height: 80%;
 	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
-	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	align-items: center;
 	justify-content: center;
 }
 .form_wrap{
-
+	width: 380px;
+	height: 80%;
+	background-color: #ffffff;
+	border: 1px solid #c7c7c7;
+	border-radius: 2px;
+	padding: 30px;
 }
+
+.form_header{
+	
+}
+
+
+
+
+
+
+/*========TEST==============*/
+/*
+.transforming{
+	width: 400px;
+	height: 400px;
+	background: violet;
+	margin: 100px auto;
+	transform: rotate(45deg);
+}
+.transforming:hover{
+	background: green;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.container_test{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.header_test{
+	min-height: 500px;
+	background: #000;
+	color: #ECEEF1;
+	transform: skewY(8deg);
+}
+.header_test:hover{
+	background: blue;
+}
+
+.header_test>.container_test{
+	transform: skewY(-8deg);
+}
+
+*/
+.round{
+	width: 400px;
+	height: 400px;
+	margin: 100px 0;
+	background: green;
+}
+.round:hover{
+	display: none;
+}
+.box{
+	width: 400px;
+	height: 400px;
+	margin: 100px 0;
+	background: #000;
+	animation: animeBox 2s linear infinite , animeBox1 3s linear infinite;
+	left: 0;
+	position: relative;
+	
+}
+@keyframes animeBox{
+	0%{
+		background:blue;
+	}
+	50%{
+		background: orange;
+	}
+	100%{
+		background: red;
+	}
+}
+@keyframes animeBox1{
+	50%{
+		background: maroon;
+		border-radius: 50%;
+		transform: rotate(360deg);
+	}
+}
+
