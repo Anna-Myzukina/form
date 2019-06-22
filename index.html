@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intuit Accounts - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:200,300,400">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+ <main class="container">
+    <!--START first logic section : SIDEBAR with signin button -->
+        <div class="header_container">
+            <div class="register_sidebar">
+                <div class="left_sidebar">
+                    <p>Already have an Intuit account?</p>
+                    <p><a class="a_link" href="#">
+                        I forgot my User ID or Password
+                    </a></p>
+                </div>
+                <div class="right_sidebar">
+                    <button class="btn">
+                            <i class="material-icons">lock_outline</i>
+                        Sign In
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    <!--END first logic section : SIDEBAR with signin button -->
+
+    <!--STAR second logic section with HEADER-->
+    <container class="header header_content">
+        <header class="header_content">
+            <div class="logo">
+                <a class="logo_img" href="#"></a>
+            </div>
+        </header>
+        
+        <header class="products_row">
+                    <div class="mint">
+                        <div>
+                            <a class="mint_img_hide" href="#"></a>
+                        </div>
+                        <div>
+                            <a class="mint_img" href="#"></a>
+                        </div>
+                        <div>
+                            <a class="mint_text" href="#"></a>
+                        </div>
+                    </div>
+                    <div class="quickbox">
+                        <div>
+                            <a href="#" class="quickbooks_img"></a>
+                        </div>
+                        <div>
+                            <a href="#" class="quickbooks_text"></a>
+                        </div>
+                    </div>
+                    <div class="turbotax">
+                        <div>
+                            <a href="#" class="turbotax_img"></a>
+                        </div>
+                        <div>
+                            <a href="#" class="turbotax_text"></a>
+                        </div>
+                    </div>
+            </div>
+        </header>
+    </container>
+    <!--END second logic section : HEADER-->
+
+    <!--STAR third logic section with main content : FORM-->
+    <div class="form_section">
+        <div class="form_wrap">
+            <div class="form_header">
+                <h1>Create an Intuit account
+                </h1>
+            </div>
+            <div class="header_text">
+                <p>
+                    One account for everything Intuit, including Mint. 
+                    <a href="#" class="header_form_link">Learn more</a>
+                </p>
+                <p>
+                    Already have an account? 
+                    <a href="#" class="header_form_link">Sign In</a>
+                </p>
+            </div>
+            
+            <div class="form_body">
+                <form class="form_fields" action="#" method="POST" name="registration_form">
+                    <fieldset>
+                    <label for="email" class="form_label">Email adress:</label>
+                    <input id="email" class="form_input" name="email" type="text" value="" required="required" pattern="[A-Za-z0-9]" maxlength="100" title="You'll use this as your user ID">
+                    </fieldset>
+                    <fieldset>
+                    <label for="phone" class="form_label">Phone (recommended)</label>
+                    <input id="phone" class="form_input" name="phone" type="tel" required="required" pattern="" maxlength="30" title="We strongly recommend adding a phone number. This will help verify your account and keep it safe.">
+                    <span class="phone_span">Standard call, messaging or data rates may apply.</span>
+                    </fieldset>
+                    <fieldset>
+                    <label for="password" class="form_label">Password</label>
+                    <input id="password" class="form_input" name="password" type="password" required="required" pattern="" maxlength="50" title="Create a password you`ve never used before. This will help keep your account safe.">
+                    <span class="unlock"> 
+                        <img src="img/unlock.png" alt="open lock">
+                    </span>
+                </fieldset>
+                    <button class="btn createAccountBtn" type="submit" name="SignUpButton">
+                            <i class="material-icons">lock_outline</i>
+                            Create Account</button>
+
+                </form>
+                <div class="form_section_top_footer">
+                    <p>
+                        By clicking Create Account, you agree to our 
+                        <a href="#">Terms of service </a> and have read and acknowledge our 
+                        <a href="#">Privacy Statement</a>
+                    </p>
+                </div>
+                <div class="form_section_bottom_footer">
+                    <p>
+                        Invisible reCAPTCHA by Google
+                        <a href="#">Privacy Policy </a> and
+                        <a href="#">Terms of Use</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--END third logic section with main content : FORM-->
+
+    <!--START fourth logic section : FOOTER-->
+    <footer class="footer_container">
+        <div class="footer_content">
+            <p>
+                <a href="#" class="footer_link">Legal</a>
+                <a href="#" class="footer_link">Privacy</a>
+                <a href="#" class="footer_link">Security</a>
+            </p>
+            <p>
+                © 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.
+            </p>
+          
+            <p>
+                Terms and conditions, features, support, pricing, and service options subject to change without notice.
+            </p>
+        </div>
+    
+    </footer>
+
+
+     <!--END fourth logic section : FOOTER-->
+
+
+
+
+ </main>
+
+</body>
+</html>
